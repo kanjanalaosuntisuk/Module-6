@@ -53,4 +53,3 @@ nc_cotton_tidy %>%
   mutate(total_lbs = `ACRES HARVESTED`*`YIELD, MEASURED IN LB / ACRE`) %>%
   ungroup() %>%
   top_n(3, total_lbs)
-
